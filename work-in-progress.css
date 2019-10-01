@@ -1,0 +1,173 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #8C3A8D;
+	font-family: 'Lucida Console', monospace;
+	margin: 0px;
+	height: 100%;
+}
+
+main {
+	height: 100%;
+}
+
+header {
+	width: 100%;
+	height: 40px;
+	/* background-color: green; */
+}
+
+footer {
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	background-color: yellow;
+	position: absolute;
+}
+
+#container-wip {
+	/* background-color: green; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: absolute;
+	left: 50%;
+	width: 1000px;
+	height: 760px;
+	margin-left: -500px;
+	align-items: center;
+}
+
+.containerflex {
+	/* background-color: yellow; */
+}
+
+#containerspyro {
+	height: 400px;
+	width: 600px;
+	text-align: center;
+}
+
+#imgspyro {
+	height: 400px;
+	width: 400px;
+}
+
+#containerloadbar {
+	height: 60px;
+	width: 600px;
+	margin-top: 35px;
+	padding-top: 5px;
+	box-shadow: 0px 0px 0px 4px #FFC929 inset;
+	background-color: purple;
+}
+
+#progressbar {
+	display: inline-block;
+	height: 50px;
+	width: 590px;
+	padding-bottom: 5px;
+	background-image: url(photos/flammes.png);
+}
+
+#container0100 {
+	height: 40px;
+	width: 600px;
+	margin-top: 0px;
+	display: flex;
+	flex-direction: row;
+	color: white;
+	justify-content: space-between;
+}
+
+#zero {
+	font-size: 30px;
+	margin-top: -24px;
+	margin-left: 20px;
+	font-family: 'Papyrus', fantasy;
+}
+
+#cent {
+	font-size: 30px;
+	margin-top: -24px;
+	margin-right: 20px;
+	font-family: 'Papyrus', fantasy;
+}
+
+#containerworkinprogress {
+	margin-top: 35px;
+}
+
+#workinprogress {
+	font-size: 45px;
+	font-family: 'Candara', sans-serif;
+	color: #FFC929;
+	text-align: center;
+}
+
+#revenez {
+	font-size: 35px;
+	font-family: 'Candara', sans-serif;
+	margin-top: -50px;
+	color: white;
+}
+
+#crache {
+height: 70px;
+width: 120px;
+}
+
+#containercrache {
+	float: left;
+	position: absolute;
+	height: 70px;
+	width: 110px;
+	 /* background-color: red; */
+	text-align: left;
+	margin-top: 435px;
+	margin-left: -355px;
+}
+
+#back {
+	width: 40px;
+	height: 40px;
+	background-image: url(photos/back.png);
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#back:hover {
+	background-image: url(photos/back2.png);
+}
+
+#instagram {
+	background-image: url(photos/Instagram.png);
+	height: 40px;
+	width: 40px;
+}
+
+#instagram:hover {
+	background-image: url(photos/Instagram2.png);
+}
+
+#twitter {
+	background-image: url(photos/Twitter.png);
+	height: 40px;
+	width: 40px;
+}
+
+#twitter:hover {
+	background-image: url(photos/Twitter2.png);
+}
+
+#facebook {
+	background-image: url(photos/Facebook.png);
+	height: 40px;
+	width: 40px;
+}
+
+#facebook:hover {
+	background-image: url(photos/Facebook2.png);
+}
